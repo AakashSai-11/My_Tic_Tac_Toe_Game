@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Roboto+Slab:wght@100..900&display=swap');
+
+
+/* .heading {
+    margin: auto;
+    text-align: center;
+} */
+
+.items-container {
+    background: rgb(red, green, blue);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: repeat(3,10vw);
+    grid-template-columns: repeat(3,10vw);
+}
+
+.info-container {
+    padding: 0px 70px;
+    font-family: "Roboto Slab", serif;
+}
+
+.box {     
+    border: 2px solid rgb(236, 118, 227);                                                                     
+    font-size: 6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.box:hover{
+    background: rgb(228, 228, 244);
+}
+
+.br-0 {
+    border-right-width: 0px;
+}
+
+.bl-0 {
+    border-left-width: 0px;
+}
+
+.bt-0 {
+    border-top-width: 0px;
+}
+
+.bb-0 {
+    border-bottom-width: 0px;
+}
+
+.excited-container {
+    height: 200px;
+    width: 200px;
+}
+
+#reset {
+    padding: 5px 14px;
+    text-align: center;
+    background-color: rgba(62, 174, 163, 0.356);
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.info {
+    font-size: 22px;
+    font-weight: bold;
+}
